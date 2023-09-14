@@ -1,0 +1,31 @@
+.maindiv{
+    background-image: url('../../assets/login/loginbg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.mainLogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.mainLogin>div{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 400px;
+}
+.mainLogin>div>input{
+    border-radius: 20rem;
+    padding-block: .7rem;
+    padding-inline: .8rem;
+    font-size: 17px;
+}   
+.mainLogin>div>button{
+    padding-block: 1rem;
+    border-radius: 20rem;
+    font-size: 19px;
+    cursor: pointer;
+    
+}
